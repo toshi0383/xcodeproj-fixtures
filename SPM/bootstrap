@@ -1,0 +1,11 @@
+#!/bin/bash
+set -eo pipefail
+for type in empty library executable system-module
+do
+    mkdir $type
+    cd $type
+    swift package init --type $type
+    grep -v xcodeproj .gitignore > a; mv a .gitignore
+    swift package generate-xcodeproj
+    cd -
+done
