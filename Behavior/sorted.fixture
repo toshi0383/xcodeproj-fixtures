@@ -7,8 +7,8 @@
 
 /* Begin PBXContainerItemProxy section */
 		1F00918E1EBA1B7A008ED440 /* PBXContainerItemProxy */ = {
-			containerPortal = OBJ_1 /* Project object */;
 			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -18,12 +18,12 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		OBJ_38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 				OBJ_39 /* AsciiPlistParser.framework in Frameworks */,
 				OBJ_40 /* AsciiPlistParser.framework in Frameworks */,
 			);
-			isa = PBXFrameworksBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
