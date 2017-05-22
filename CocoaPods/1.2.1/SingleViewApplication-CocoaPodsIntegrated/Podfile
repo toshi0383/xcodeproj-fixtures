@@ -5,5 +5,4 @@ target 'SingleViewApplication-CocoaPodsIntegrated' do
 
     pod 'Pastel'
     pod 'SwiftLint'
-    pod 'SwiftGen'
 end
